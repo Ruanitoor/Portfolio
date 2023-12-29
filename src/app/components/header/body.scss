@@ -1,0 +1,149 @@
+.sobremim{
+    padding-left: 15rem;
+    padding-top: 10rem;
+
+    padding-right: 5rem;
+    font-size: 20px;
+
+ 
+    
+
+   
+    
+}
+.rep{  align-content: center;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    box-sizing: border-box;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+
+
+}
+.para {
+    padding-top: 2rem;
+}
+.para2 p {
+    
+      padding-top: 2rem;
+    }
+
+    .para3 p {
+    
+        padding-top: 2rem;
+      }
+      .para4 p {
+    
+        padding-top: 2rem;
+      }
+      @keyframes typing{
+        from{ width: 0;}
+      }
+      to{ width: 18em;
+        
+    }
+      @keyframes blink{
+        from{
+            border-right-color: rgba(255,255, 255, 0.75 );
+        }
+        to{
+            border-right-color: transparent;
+        }
+ }
+
+
+.cVyizP {
+    
+    width: 310px;
+    border-right: 3px solid; 
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink 4s infinite normal,typing 4s steps(40) 1s normal;
+     }
+     @keyframes float {
+        0% {
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+        }
+        50% {
+            box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+            transform: translatey(-20px);
+        }
+        100% {
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+        }
+    }   
+
+     .container1 {
+       
+
+            display: grid;
+            padding: 10px;
+            margin: -40px 0 0 0;
+            padding: 10px 30px 10px 0px;
+        
+       
+     
+  
+      
+      }
+      .container2 {
+    padding-left: 13rem;
+    padding-top: 8rem;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+ 
+        
+     
+        
+    }  
+    
+    
+      .avatar {
+        width: 500px;
+        height: 500px;
+        box-sizing: border-box;
+        border: 5px white solid;
+        
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        img { width: 100%; height: auto; }
+        }      
+        @keyframes _setaBaixo_t52zv_1 {
+            0% {
+                top: 0px
+            }
+        
+            to {
+                top: 10px
+            }
+        }
+        
+        .seta{
+            width: 1px;
+            padding-top: 6rem;
+            height: 1px;
+            background-image: url(/assets/seta-645845a0.png);
+            background-size: contain;
+            position: absolute;
+            left: 50%;
+            font-size: 50px;
+            transform: translate(-50%);
+            background-repeat: no-repeat;
+            margin-top: 80vh;
+            animation-name: _setaBaixo_t52zv_1;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }

@@ -1,0 +1,24 @@
+:root {
+  --text-primary:white;
+  --bg-primary: gray:
+  color-scheme: light dark;
+  color: beige;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/voltk-homologacao.appspot.com/o/compressed_1696390013868_bg.png.webp?alt=media&token=vtk_YsTI6IQUiEcodE6cmqCTc9IYkD82") ;
+  background-repeat: no-repeat;
+  max-width: auto;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}

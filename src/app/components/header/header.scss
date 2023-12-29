@@ -1,0 +1,65 @@
+.header{
+    border-bottom: 0.5px solid rgb(61, 61, 61);
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #1E1E1E;
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sobre p{
+    padding: 1rem;
+}
+
+}
+
+.name{
+    display: inline-block;
+    font-weight: 800;
+    color: white;
+    font-size: 32px;
+
+}
+
+.customButton {
+    color: #ffff;
+    justify-content: left;
+    border: 0;
+    margin: 4px;
+    display: inline;
+    padding: 16px 32px;
+    font-size: 16px;
+    background: linear-gradient(#185B8D 0%, #185B8D 100%);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    text-align: right;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    border-color: black;
+    border-radius: 60px;
+    background-size: auto;
+    background-image: linear-gradient(to right, rgba(180,33,254,1) 0%, rgba(136,33,254,1) 100%);
+
+
+}
+.name .name2{
+    display: inline-block;
+    font-weight: 800;
+    color: #8D21FE;
+    font-size: 32px;
+}
+
+
+
